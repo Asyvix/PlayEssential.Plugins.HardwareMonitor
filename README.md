@@ -14,3 +14,6 @@ Json형태로 EventBridge에 "HardwareMonitor" 으로 Publish됩니다.
 * Gpu ( 멀티 gpu가 기본적으로 인식됩니다.) - Name, Clock, LoadPercent, FreeMemory, UsedMemory, TotalMemory, Temperature
 * Ram - UsagePercent, Total, Usage
 * Storage - Name, UsagePercent, Usage, Temperature
+
+
+사용된 OpenHardwareMonitorLib는 https://github.com/Asyvix/LibreHardwareMonitor 여기에서 소스코드를 다운받을 수 있으며, MPL2.0라이선스가 적용됩니다.
