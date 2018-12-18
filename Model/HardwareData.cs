@@ -13,6 +13,6 @@ namespace PlayEssential.Plugins.HardwareMonitor.Model
         public Ram Ram { get; set; } = new Ram();
 
         public List<Storage> Storages { get; set; } = new List<Storage>();
-        public List<Gpu> Gpus { get; set; }
+        public List<Gpu> Gpus { get; set; } = new List<Gpu>();
     }
 }

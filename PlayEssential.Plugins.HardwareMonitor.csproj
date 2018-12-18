@@ -49,10 +49,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ExNet">
-      <HintPath>..\PlayEssential.Services.Plugin\bin\Debug\ExNet.dll</HintPath>
+      <HintPath>..\..\ExNet\ExNet\bin\Debug\netstandard2.0\ExNet.dll</HintPath>
     </Reference>
     <Reference Include="ExNet.Bridge">
-      <HintPath>..\PlayEssential.Services.Plugin\bin\Debug\ExNet.Bridge.dll</HintPath>
+      <HintPath>..\..\ExNet\ExNet.Bridge\bin\Debug\netstandard2.0\ExNet.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>

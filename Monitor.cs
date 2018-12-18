@@ -179,7 +179,7 @@ namespace PlayEssential.Plugins.HardwareMonitor
                                 }
                                 else if (sensor.SensorType == SensorType.Temperature)
                                 {
-                                    if (sensor.Value != null) storage.DiskTemperature = (int)sensor.Value.Value;
+                                    if (sensor.Value != null) storage.Temperature = (int)sensor.Value.Value;
                                 }
                             }
                             data.Storages.Add(storage);
@@ -233,7 +233,7 @@ namespace PlayEssential.Plugins.HardwareMonitor
                                     }
                                 }
                             }
-
+                            data.Gpus.Add(gpu);
 
 
                             break;

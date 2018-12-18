@@ -11,6 +11,6 @@ namespace PlayEssential.Plugins.HardwareMonitor.Model
         public string Name { get; set; }
         public float UsagePercent { get; set; }
         public float Usage { get; set; }
-        public float DiskTemperature { get; set; }
+        public float Temperature { get; set; }
     }
 }
